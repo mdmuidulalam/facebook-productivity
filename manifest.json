@@ -1,0 +1,12 @@
+{
+    "name":"Facebook Productivity",
+    "description":"This is for hiding some features of Facebook to increase productivity.",
+    "version":"1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["https://www.facebook.com/*"],
+          "js": ["script.js"]
+        }
+    ]
+}
